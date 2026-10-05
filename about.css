@@ -1,0 +1,765 @@
+.about-hero {
+  padding: 76px 0 88px;
+  background: #fff;
+}
+
+.about-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.95fr;
+  align-items: center;
+  gap: 58px;
+}
+
+.about-hero-copy h1 {
+  max-width: 650px;
+  margin: 0 0 20px;
+  font-size: clamp(2.7rem, 5vw, 4.35rem);
+  line-height: 1.06;
+}
+
+.about-hero-copy > p,
+.about-who-copy p,
+.about-contact-inner p {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.about-hero-copy > p {
+  max-width: 580px;
+  margin: 0;
+}
+
+.about-hero-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.about-text-link {
+  color: var(--green-dark);
+  font-weight: 700;
+}
+
+.about-text-link span {
+  display: inline-block;
+  margin-left: 5px;
+  transition: transform 0.2s ease;
+}
+
+.about-text-link:hover span {
+  transform: translateX(4px);
+}
+
+.about-hero-image {
+  position: relative;
+  padding: 0 0 26px 26px;
+}
+
+.about-hero-image::before {
+  position: absolute;
+  inset: 26px 26px 0 0;
+  border: 1px solid #b7d7c0;
+  content: "";
+}
+
+.about-hero-image img {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.13;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.about-image-note {
+  position: absolute;
+  right: -12px;
+  bottom: 7px;
+  max-width: 240px;
+  padding: 14px 18px;
+  background: var(--green-dark);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.about-principles-section {
+  padding: 62px 0;
+  background: #edf6ef;
+}
+
+.about-principles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.about-principle {
+  padding: 12px 48px 12px 0;
+}
+
+.about-principle + .about-principle {
+  padding: 12px 0 12px 48px;
+  border-left: 1px solid #cbded0;
+}
+
+.about-kicker {
+  color: var(--green);
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-principle h2 {
+  max-width: 420px;
+  margin: 14px 0 10px;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.about-principle p {
+  max-width: 520px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.about-who-section {
+  background: #fff;
+}
+
+.about-who-grid {
+  display: grid;
+  grid-template-columns: 0.92fr 1fr;
+  align-items: center;
+  gap: 70px;
+}
+
+.about-who-image img {
+  width: 100%;
+  aspect-ratio: 1.05;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.about-who-copy h2,
+.about-strengths-heading h2,
+.about-contact-inner h2 {
+  margin: 0 0 18px;
+  font-size: clamp(2rem, 3.4vw, 3.1rem);
+  line-height: 1.12;
+}
+
+.about-who-copy p {
+  margin: 0 0 16px;
+}
+
+.about-who-copy .about-text-link {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.about-strengths-section {
+  padding: 82px 0;
+  background: var(--green-dark);
+  color: #fff;
+}
+
+.about-strengths-grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 76px;
+}
+
+.about-strengths-heading {
+  align-self: start;
+  position: sticky;
+  top: 120px;
+}
+
+.about-strengths-heading .eyebrow {
+  color: #bfe7c8;
+}
+
+.about-strengths-heading h2 {
+  max-width: 420px;
+}
+
+.about-strengths-heading p {
+  max-width: 360px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.about-strengths-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-strengths-list li {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 18px;
+  padding: 22px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.about-strengths-list li > span {
+  padding-top: 4px;
+  color: #a7d8b2;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.about-strengths-list h3 {
+  margin: 0 0 5px;
+  font-size: 1.2rem;
+}
+
+.about-strengths-list p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.about-contact-section {
+  padding: 76px 0;
+  background: #fff;
+}
+
+.about-contact-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+}
+
+.about-contact-inner > div {
+  max-width: 700px;
+}
+
+.about-contact-inner h2 {
+  margin-bottom: 10px;
+}
+
+.about-contact-inner p {
+  max-width: 620px;
+  margin: 0;
+}
+
+.about-contact-inner .btn {
+  flex-shrink: 0;
+}
+
+@media (max-width: 960px) {
+  .about-hero-grid,
+  .about-who-grid,
+  .about-strengths-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 34px;
+  }
+
+  .about-strengths-heading {
+    position: static;
+  }
+}
+
+@media (max-width: 680px) {
+  .about-hero {
+    padding: 54px 0 62px;
+  }
+
+  .about-hero-grid,
+  .about-who-grid,
+  .about-principles-grid,
+  .about-strengths-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero-copy h1 {
+    font-size: 2.65rem;
+  }
+
+  .about-hero-actions {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .about-hero-actions .btn {
+    width: auto;
+  }
+
+  .about-hero-image {
+    margin: 8px 12px 0 0;
+  }
+
+  .about-image-note {
+    right: -10px;
+    max-width: 205px;
+    font-size: 0.82rem;
+  }
+
+  .about-principles-section {
+    padding: 48px 0;
+  }
+
+  .about-principle,
+  .about-principle + .about-principle {
+    padding: 18px 0;
+  }
+
+  .about-principle + .about-principle {
+    border-top: 1px solid #cbded0;
+    border-left: 0;
+  }
+
+  .about-who-grid {
+    gap: 30px;
+  }
+
+  .about-strengths-section {
+    padding: 62px 0;
+  }
+
+  .about-strengths-grid {
+    gap: 32px;
+  }
+
+  .about-contact-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+:root {
+  --about-ink: #0f3d2e;
+  --about-lime: #1e7f46;
+  --about-paper: #f4f8f5;
+  --about-orange: #c9423a;
+}
+
+.about-hero,
+.about-principles-section,
+.about-who-section,
+.about-strengths-section,
+.about-contact-section,
+.site-footer {
+  font-family: "DM Sans", sans-serif;
+}
+
+.about-hero {
+  padding: 88px 0 96px;
+  background: var(--about-ink);
+  color: #fff;
+}
+
+.about-hero-grid {
+  grid-template-columns: 1fr 0.82fr;
+  gap: 72px;
+}
+
+.about-hero-copy .eyebrow.dark {
+  margin-bottom: 24px;
+  color: var(--about-lime);
+}
+
+.about-hero-copy h1 {
+  max-width: 700px;
+  margin: 0 0 24px;
+  font-family: Manrope, sans-serif;
+  font-size: 5.25rem;
+  font-weight: 600;
+  line-height: 0.99;
+  letter-spacing: 0;
+}
+
+.about-hero-copy h1 span {
+  color: var(--about-lime);
+}
+
+.about-hero-copy > p {
+  max-width: 540px;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.about-hero-actions {
+  gap: 26px;
+  margin-top: 32px;
+}
+
+.about-hero .btn-primary,
+.about-contact-inner .btn-primary {
+  min-height: 54px;
+  padding: 14px 22px;
+  border: 1px solid var(--about-lime);
+  border-radius: 3px;
+  background: var(--about-lime);
+  color: var(--about-ink);
+}
+
+.about-text-link {
+  color: #fff;
+  font-weight: 600;
+}
+
+.about-hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 42px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.about-hero-meta span::before {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin: 0 9px 1px 0;
+  border-radius: 50%;
+  background: var(--about-orange);
+  content: "";
+}
+
+.about-hero-image {
+  align-self: stretch;
+  min-height: 430px;
+  padding: 0 0 22px 22px;
+}
+
+.about-hero-image::before {
+  inset: 22px 22px 0 0;
+  border: 1px solid rgba(30, 127, 70, 0.65);
+}
+
+.about-hero-image img {
+  height: 100%;
+  min-height: 430px;
+  aspect-ratio: 0.9;
+  border-radius: 2px;
+  object-position: center;
+}
+
+.about-image-note {
+  right: -18px;
+  bottom: 0;
+  max-width: 255px;
+  padding: 17px 20px;
+  background: var(--about-lime);
+  color: #fff;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.about-image-note b {
+  display: block;
+  margin-bottom: 5px;
+  color: #d9eee0;
+  font-size: 0.7rem;
+}
+
+.about-principles-section {
+  padding: 58px 0;
+  background: #e8f3ec;
+  color: var(--about-ink);
+}
+
+.about-principles-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.about-principle {
+  padding: 14px 54px 14px 0;
+}
+
+.about-principle + .about-principle {
+  padding: 14px 0 14px 54px;
+  border-left: 1px solid rgba(18, 32, 28, 0.24);
+}
+
+.about-kicker {
+  color: #176b40;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+
+.about-principle h2 {
+  max-width: 450px;
+  margin: 16px 0 12px;
+  font-family: Manrope, sans-serif;
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.about-principle p {
+  max-width: 500px;
+  color: rgba(18, 32, 28, 0.78);
+  line-height: 1.75;
+}
+
+.about-who-section {
+  background: var(--about-paper);
+}
+
+.about-who-grid {
+  grid-template-columns: 0.92fr 1fr;
+  gap: 86px;
+}
+
+.about-who-image {
+  position: relative;
+}
+
+.about-who-image::after {
+  position: absolute;
+  right: -14px;
+  bottom: -14px;
+  width: 50%;
+  height: 35%;
+  border-right: 2px solid var(--about-orange);
+  border-bottom: 2px solid var(--about-orange);
+  content: "";
+  pointer-events: none;
+}
+
+.about-who-image img {
+  aspect-ratio: 0.95;
+  border-radius: 2px;
+}
+
+.about-who-copy .eyebrow.dark {
+  color: #176b40;
+}
+
+.about-who-copy h2,
+.about-strengths-heading h2,
+.about-contact-inner h2 {
+  font-family: Manrope, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.about-who-copy h2 {
+  max-width: 520px;
+  font-size: 3rem;
+  line-height: 1.08;
+}
+
+.about-who-copy p,
+.about-contact-inner p {
+  line-height: 1.8;
+}
+
+.about-who-copy .about-text-link {
+  color: #176b40;
+}
+
+.about-strengths-section {
+  padding: 86px 0;
+  background: var(--about-ink);
+}
+
+.about-strengths-grid {
+  grid-template-columns: 0.78fr 1.22fr;
+  gap: 88px;
+}
+
+.about-strengths-heading .eyebrow {
+  color: var(--about-lime);
+}
+
+.about-strengths-heading h2 {
+  font-size: 2.8rem;
+  line-height: 1.1;
+}
+
+.about-strengths-heading p {
+  line-height: 1.75;
+}
+
+.about-strengths-list li {
+  grid-template-columns: 52px 1fr;
+  gap: 16px;
+  padding: 22px 0;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.about-strengths-list li > span {
+  color: var(--about-lime);
+}
+
+.about-strengths-list h3 {
+  font-family: Manrope, sans-serif;
+  font-size: 1.12rem;
+}
+
+.about-strengths-list p {
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.about-contact-section {
+  padding: 74px 0;
+  background: var(--about-paper);
+}
+
+.about-contact-inner {
+  align-items: flex-end;
+  padding: 38px 42px;
+  background: var(--about-ink);
+  color: #fff;
+}
+
+.about-contact-inner .eyebrow.dark {
+  color: #bfe2ca;
+}
+
+.about-contact-inner h2 {
+  max-width: 620px;
+  font-size: 2.5rem;
+  line-height: 1.12;
+}
+
+.about-contact-inner p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.about-contact-inner .btn-primary {
+  border-color: var(--about-lime);
+  background: var(--about-lime);
+  color: #fff;
+}
+
+.site-footer {
+  background: #0c1714;
+}
+
+@media (max-width: 960px) {
+  .about-hero-grid,
+  .about-who-grid,
+  .about-strengths-grid {
+    gap: 42px;
+  }
+
+  .about-hero-copy h1 {
+    font-size: 4.1rem;
+  }
+
+  .about-who-copy h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .about-hero {
+    padding: 56px 0 68px;
+  }
+
+  .about-hero-grid,
+  .about-who-grid,
+  .about-principles-grid,
+  .about-strengths-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero-grid {
+    gap: 36px;
+  }
+
+  .about-hero-copy h1 {
+    max-width: 500px;
+    font-size: 3.35rem;
+  }
+
+  .about-hero-copy > p {
+    font-size: 1rem;
+  }
+
+  .about-hero-actions {
+    align-items: center;
+    flex-direction: row;
+    gap: 18px;
+  }
+
+  .about-hero-actions .btn {
+    width: auto;
+  }
+
+  .about-hero-meta {
+    gap: 12px 18px;
+    margin-top: 30px;
+  }
+
+  .about-hero-image {
+    min-height: 0;
+    margin: 0 12px 10px 0;
+  }
+
+  .about-hero-image img {
+    min-height: 0;
+    aspect-ratio: 1.15;
+  }
+
+  .about-image-note {
+    right: -12px;
+    max-width: 220px;
+  }
+
+  .about-principles-section {
+    padding: 38px 0;
+  }
+
+  .about-principle,
+  .about-principle + .about-principle {
+    padding: 20px 0;
+  }
+
+  .about-principle + .about-principle {
+    border-top: 1px solid rgba(18, 32, 28, 0.24);
+    border-left: 0;
+  }
+
+  .about-principle h2 {
+    font-size: 1.55rem;
+  }
+
+  .about-who-grid {
+    gap: 38px;
+  }
+
+  .about-who-copy h2,
+  .about-strengths-heading h2 {
+    font-size: 2.2rem;
+  }
+
+  .about-strengths-section {
+    padding: 62px 0;
+  }
+
+  .about-strengths-grid {
+    gap: 28px;
+  }
+
+  .about-contact-section {
+    padding: 48px 0;
+  }
+
+  .about-contact-inner {
+    align-items: flex-start;
+    gap: 24px;
+    padding: 28px 24px;
+  }
+
+  .about-contact-inner h2 {
+    font-size: 2rem;
+  }
+}
